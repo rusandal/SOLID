@@ -88,7 +88,8 @@ public class Main {
                     sc = scanner.nextLine();
                     if (Integer.parseInt(sc) == 1) System.out.println(Exchange.exchange("RUB", "USD"));
                     if (Integer.parseInt(sc) == 2) System.out.println(Exchange.exchange("RUB", "EUR"));
-                    if (Integer.parseInt(sc) == 2) System.out.println(Exchange.exchange("EUR", "USD"));
+                    if (Integer.parseInt(sc) == 3) System.out.println(Exchange.exchange("EUR", "USD"));
+                    break;
             }
         }
     }
